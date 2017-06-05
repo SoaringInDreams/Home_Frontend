@@ -1,0 +1,121 @@
+:root {
+  --primaryColor: #0166ff;
+  --secondaryColor: white;
+  --textColor: #939393;
+  --headlineColor: var(--secondaryColor);
+  /* You can use css varibles */
+}
+body {
+    background-color: #dfdad4;
+}
+
+.login {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+    line-height: 100px;
+    background-color: #376bfb;
+    position: relative;
+    right: 30px;
+
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 680px;
+    height: 480px;
+    margin: 50px auto;
+    box-shadow: -5px 5px 0 0 #CFCBC5;
+}
+.container .left, .container .right {
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+.container .left {
+    background-color: #fff;
+
+}
+.container .right {
+    background-color: #376bfb;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: 5px 5px 0 0 #CFCBC5;
+
+}
+.container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 36px;
+    box-sizing: border-box;
+    padding: 0 17px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+.container .button_1 {
+    display: block;
+    width: 100%;
+    line-height: 36px;
+    background-color: #376bfb;
+    color: #fff;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+.container .button_2 {
+    display: block;
+    width: 100%;
+    line-height: 36px;
+    background-color: #4C79FF;
+    color: #fff;
+    border: none;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+.container_2 {
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    background-color: #376bfb;
+    width: 340px;
+    height: 50px;
+
+}
+
+A:link {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+
+.url {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 36px;
+    text-align: justify;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+}
+
+
+.triangle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 0;
+    width: 0;
+    display: inline-block;
+    border-top: 20px solid #2E5CE6;
+    border-right: 20px solid white;
+}
