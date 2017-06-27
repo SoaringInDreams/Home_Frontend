@@ -157,30 +157,30 @@ var users = [{
 
 // var1:
 
-var sum = 0;
-var outer = false;
-while(!outer) {
-    var sumArray = prompt('Please enter number', "");
-    if (sumArray.replace(/\d/g, '').length == 0) {
-        sum += parseInt(sumArray);
-    } else {
-        alert(sum);
-        outer = true;
-    }
-}
+//var sum = 0;
+//var outer = false;
+//while(!outer) {
+//    var sumArray = prompt('Please enter number', "");
+//    if (sumArray.replace(/\d/g, '').length == 0) {
+//        sum += parseInt(sumArray);
+//    } else {
+//        alert(sum);
+//        outer = true;
+//    }
+//}
 
 // var 2:
 
-//var sum = 0;
-//outer:while(true){
-//    var sumArray = prompt('Please enter number', "");
-//    if (typeof parseInt(sumArray) === 'number'){
-//        sum += parseInt(sumArray);
-//    }else{
-//        alert(sum);
-//        break outer;;
-//    }
-//}
+var sum = 0;
+outer:while(true){
+    var sumArray = parseInt(prompt('Please enter number', 0));
+    if (typeof sumArray === 'number' && !isNaN(sumArray)){
+        sum += sumArray;
+    }else{
+        alert(sum);
+        break outer;
+    }
+}
 
 
 // * Your code End *
