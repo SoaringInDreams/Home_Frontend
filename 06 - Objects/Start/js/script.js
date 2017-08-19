@@ -104,7 +104,8 @@ class Elf extends Character {
         super(...arg);
         this.dexterity = this.dexterity * 1.2;
         this.strength = this.strength * 0.85;
-    }toString(){
+    }
+    toString(){
         return this.weapon.toLowerCase()
     }
 };
@@ -115,7 +116,8 @@ class Gnome extends Character {
         super(...arg);
         this.intelligence = this.intelligence * 0.8;
         this.strength = this.strength * 1.3;
-    }toString(){
+    }
+    toString(){
         return this.weapon.toLowerCase()
     }
 };
@@ -126,7 +128,8 @@ class Human extends Character {
         super(...arg);
         this.intelligence = this.intelligence * 1.1;
         this.dexterity = this.dexterity * 0.90;
-    }toString(){
+    }
+    toString(){
         return this.weapon.toLowerCase()
     }
 };
